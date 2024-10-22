@@ -37,8 +37,8 @@ button {
   border: 1px solid black;
 }
 
-.on-bulb {
-  transform: translateX(50px);
+.x-15 {
+  transform: translateX(-15%);
 }
 /* !classe gestita con js per mostrare e nascondere lampadina accesa o spenta */
 
