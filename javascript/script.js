@@ -14,5 +14,13 @@ const button = document.getElementById("on-off");
 button.addEventListener('click', function () {
   bulbOn.classList.toggle('hidden');
   bulbOff.classList.toggle('hidden');
-})
 
+  if (bulbOn.classList.contains('hidden')) {
+    button.innerHTML = 'Accendi la lampadina';
+  } else {
+    button.innerHTML = 'Spegni la lampadina';
+  }
+});
+
+
+console.log(button.innerHTML.replace(''));
