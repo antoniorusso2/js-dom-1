@@ -1,0 +1,47 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+button {
+  background: none;
+  border: none;
+  text-decoration: none;
+  display: block;
+}
+
+.container {
+  width: 800px;
+  text-align: center;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+/* btn style */
+.btn {
+  cursor: pointer;
+  padding: 1rem 1.35rem;
+  color: aliceblue;
+  font-size: 1.1rem;
+  background-color: rgb(55, 60, 140);
+  border-radius: 999px;
+  border: 1px solid black;
+}
+
+.on-bulb {
+  transform: translateX(50px);
+}
+/* !classe gestita con js per mostrare e nascondere lampadina accesa o spenta */
+
+.hidden {
+  display: none;
+}

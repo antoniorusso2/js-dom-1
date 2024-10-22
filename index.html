@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
   <title>Lampadina</title>
 </head>
 
@@ -13,24 +14,24 @@
   <main>
     <div class="container">
       <div class="main-title">
-        <h1>Accendi e spegni la Lampadina cliccando sul tast in basso</h1>
+        <h1>Accendi e spegni la Lampadina cliccando sul tasto in basso</h1>
       </div>
       <!-- lampadina -->
-      <div class="light-bulb">
-        <img src="./img/white_lamp.png" alt="lampadina spenta">
+      <div class="bulb-wrapper">
+        <img id="off-bulb" class="absolute" src="./img/white_lamp.png" alt="">
+        <img id="on-bulb" class="hidden absolute" src="./img/yellow_lamp.png" alt="">
       </div>
-      <div class="btn">
-        <button class="on-off">
+      <div class="">
+        <button id="on-off" class="btn">
           Accendi la lampadina
         </button>
-
       </div>
 
     </div>
   </main>
   <footer>
   </footer>
-
+  <script src="./javascript/script.js"></script>
 </body>
 
 </html>
